@@ -78,11 +78,10 @@ var tim = fsm({
 
 	},
 
-	error: {
-		$enter: function(cb) {
-			console.log('No way out of here');
-			cb();
-		},
+	error: function(cb, state) {
+		console.log('An error occured in state', state);
+		tim.state = state;
+		cb();
 	},
 
 	_timer: null, // timer object to allow clearing the interval
@@ -94,7 +93,11 @@ tim.on('end', function() {
 });
 
 tim.on('error', function() {
-	console.log('error!');
+	console.log('on-error');
+});
+
+tim.on('idle.start', function() {
+	console.log("try 'go' the next time...");
 });
 
 var i = require('../lib/debugger')(tim, { verbose: false });
