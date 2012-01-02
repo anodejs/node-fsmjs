@@ -1,7 +1,7 @@
 {
-    "name": "fsm",
-    "description": "State machines are back, the async way",
-    "main": "./lib/fsm",
+    "name": "fsmjs",
+    "description": "State machines are back",
+    "main": "./lib/fsmjs",
     "author": "Elad Ben-Israel <elad.benisrael@gmail.com>",
     "version": "0.1.0",
     "contributors": [ ],
@@ -23,7 +23,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "http://github.com/eladb/node-fsm"
+        "url": "http://github.com/eladb/node-fsmjs"
     },
     "scripts": {
         "test": "nodeunit test/*.test.js"

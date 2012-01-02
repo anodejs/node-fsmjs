@@ -1,6 +1,6 @@
-var fsm = require('../lib/fsm');
+var fsmjs = require('../lib/fsmjs');
 
-var tim = fsm({
+var tim = fsmjs({
 
 	idle: {
 

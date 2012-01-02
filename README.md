@@ -1,17 +1,17 @@
-# fsm #
+# fsmjs #
 
-State machines are back, the async way
+State machines are back, the async way!
 
 ```bash
-$ npm install fsm
+$ npm install fsmjs
 ```
 
 ## By example ##
 
 ```nodejs
-var fsm = require('../lib/fsm');
+var fsmjs = require('../lib/fsmjs');
 
-var tim = fsm({
+var tim = fsmjs({
 
 	idle: {
 

@@ -1,6 +1,6 @@
-var fsm = require('../lib/fsm');
+var fsmjs = require('../lib/fsmjs');
 
-var machine = fsm({
+var machine = fsmjs({
 
 	idle: {
 
