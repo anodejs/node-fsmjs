@@ -1,0 +1,31 @@
+{
+    "name": "fsm",
+    "description": "State machines are back, the async way",
+    "main": "./lib/fsm",
+    "author": "Elad Ben-Israel <elad.benisrael@gmail.com>",
+    "version": "0.1.0",
+    "contributors": [ ],
+    "keywords": [
+        "fsm",
+        "state",
+        "async",
+        "state machine"
+    ],
+    "dependencies": {
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "~0.6.6"
+    },
+    "devDependencies": {
+        "nodeunit": "0.6.x",
+        "logule": "0.5.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/eladb/node-fsm"
+    },
+    "scripts": {
+        "test": "nodeunit test/*.test.js"
+    }
+}
