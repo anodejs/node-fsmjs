@@ -1,5 +1,7 @@
 # fsmjs #
 
+[![Build Status](https://secure.travis-ci.org/anodejs/node-fsmjs.png)](http://travis-ci.org/anodejs/node-fsmjs)
+
 State machines are back, the async way!
 
 ```bash
@@ -115,3 +117,7 @@ var i = require('../lib/debugger')(tim, { verbose: false });
 ```
 
 More examples under `examples/`.
+
+## Lisence
+
+MIT

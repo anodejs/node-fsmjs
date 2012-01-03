@@ -1,9 +1,9 @@
 {
     "name": "fsmjs",
     "description": "State machines are back",
-    "main": "./lib/fsmjs",
+    "main": "./main",
     "author": "Elad Ben-Israel <elad.benisrael@gmail.com>",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "contributors": [ ],
     "keywords": [
         "fsm",
@@ -12,6 +12,7 @@
         "state machine"
     ],
     "dependencies": {
+        "ctxobj": "0.1.x"
     },
     "license": "MIT",
     "engines": {

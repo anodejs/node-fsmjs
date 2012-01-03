@@ -22,6 +22,7 @@ var tim = fsmjs({
 			console.log('error: i cant understand what you mean by "' + e + '"');
 			cb();
 		},
+
 	},
 
 	running: {
@@ -58,6 +59,11 @@ var tim = fsmjs({
 	},
 
 	stopping: {
+
+		$enter: function(cb) {
+			console.log('entering stopping state');
+			cb();
+		},
 
 		// called when the stopping timer elapses. clears the 
 		// interval and changes state to 'idle'
