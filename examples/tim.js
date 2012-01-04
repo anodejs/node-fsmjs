@@ -14,7 +14,11 @@ var tim = fsmjs({
 		},
 
 		// strings are target states (and emitted events)
-		exit: 'end',
+		exit: function(cb) {
+			tim.qemit('end');
+			return cb();
+		},
+
 		e: 'error',
 
 		// any other event in this state shows this error
