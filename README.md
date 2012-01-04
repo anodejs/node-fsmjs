@@ -10,7 +10,7 @@ $ npm install fsmjs
 
 ## By example ##
 
-```nodejs
+```js
 var fsmjs = require('../lib/fsmjs');
 
 var tim = fsmjs({
